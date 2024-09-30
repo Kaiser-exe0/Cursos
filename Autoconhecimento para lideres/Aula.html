@@ -5,50 +5,44 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="aulas.css">
-    <script src="./script_aula.js"></script>
+    <script src="aula_script.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Video-aulas</title>
+ <script src="aula_script.js"></script>
+    <title>Autoconhecimento para lideres</title>
 </head>
 <body>
-
     <div class="sidebar">
         <h1>Módulos e aulas</h1>
         
         <h3>Módulo 1</h3>
         <ol id="dynamicList">
-            <li>
-                <a onclick="trocarVideo" href="https://play.gumlet.io/embed/661698592937374872013bea">Autoconhecimento e sua importância para liderança</a>
+            <li onclick="changeVideo('https://play.gumlet.io/embed/661698592937374872013bea')">
+                <a href="#">Autoconhecimento e sua importância para liderança</a>
             </li>
-            <li>
+            <li onclick="changeVideo('https://play.gumlet.io/embed/661698592937374872013be8')">
                 <a href="#">Autoconhecimento na prática</a>
             </li>
-            <li>
+            <li onclick="changeVideo('https://play.gumlet.io/embed/66169855356314ecdddde072')">
                 <a href="#">Conclusão</a>
             </li>
         </ol>
         
         <h3>Módulo 2</h3>
         <ol id="dynamicList">
-            <li>
+            <li onclick="changeVideo('https://play.gumlet.io/embed/66169855356314ecdddde06c')">
                 <a href="#">Habilidades sociocomportamentais</a>
             </li>
         </ol>
     </div>
 
-<div class="container">
-            <div class="videowrapper">  
-                <iframe id="videoFrame" width="640" height="360"
-                src="https://play.gumlet.io/embed/661698592937374872013bea"></iframe>
-            </div>
-
-    <div class="videoProgress"> 
-        <a href="#" "><span>Proximo</span></a>
-        <a href="#" "><span>Marcar como assitido</span></a>
-        <a href="#" "><span>Anterior</span></a>
-    
+    <div class="container">
+        <div class="videowrapper">  
+            <iframe id="videoFrame" width="640" height="360" src="https://play.gumlet.io/embed/661698592937374872013bea" frameborder="0" allowfullscreen></iframe>
+        </div>
+        
     </div>
-</div>
+
 
 </body>
 </html>

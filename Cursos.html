@@ -3,39 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Componente Trabalhos</title>
+    <title>Cursos</title>
     <link rel="stylesheet" href="cursos.css">
-    <script src="./script.js"></script>
+    <script src="curso.js"></script>
+
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="page">
-        <Header>
-        <p>CURSOS</p>
-        <h1>Escola de pssoas</h1>
-        </Header>
-        <main>
-            <div class ="card">
-                <img src="https://i.pinimg.com/564x/03/b0/1a/03b01acc301a1820097342e6a0d03eb8.jpg" alt="">
-                <h2><span class="course_name"> liderança</span>Autoconhecimento para Liderança</h2>
-            </div>
-            <div class="card">
-                <img src="https://i.pinimg.com/564x/84/45/bf/8445bf5e6a3703295e0dab40b6aa00fc.jpg" alt="">
-                <h2><span class="course_name">mobile</span>For Smatphones</h2>
-            </div>
-            <div class="card">
-                <img src="https://i.pinimg.com/564x/88/de/f5/88def58e9c11be6f4484e5cf72a27ad1.jpg" alt="">
-                <h2><span class="course_name">Web site</span>@Kaiser</h2>
-            </div>
-            <div class="card">
-                <img src="https://i.pinimg.com/736x/38/ea/d7/38ead79eb780667a0703e49075eba848.jpg" alt="">
-                <h2><span class="course_name">Desktop</span>Something</h2>
-            </div>
-        </main>
+    <!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Escolha de Cursos</title>
+    </head>
+    <body>
+        <div class="page">
+            <header>
+                <p>CURSOS</p>
+                <h1>Escola de Pessoas</h1>
+            </header>
+            <main>
+                <div class="card" onclick="aula('autoconhecimento para lideres/Aula.html')">
+                    <img src="https://app.escoladepessoas.com.br/wp-content/uploads/2023/02/Autoconhecimento-para-lideres-_Thumb_-480x302.webp" alt="">
+                    <h2><span class="course_name">Liderança</span> Autoconhecimento para Liderança</h2>
+                </div>
+                <div class="card" onclick="aula('Inteligência Emocional para a Liderança/Aula.html')">
+                    <img src="https://app.escoladepessoas.com.br/wp-content/uploads/2023/02/7195181es-para-lideran195167a-thumb-480x302.webp" alt="">
+                    <h2><span class="course_name">Liderança</span>Inteligência emocional para liderança</h2>
+                </div>
+                <div class="card" onclick="aula('valor pessoal e proposito no trabalho/Aula.html')">
+                    <img src="https://app.escoladepessoas.com.br/wp-content/uploads/2023/04/AnyConv.com__Valor-pessoal-thumb-480x302.webp" alt="">
+                    <h2><span class="course_name">Autoconhecimento</span>valor pessoal e propósito no trabalho</h2>
+                </div>
+                <div class="card" onclick="aula('autoconhecimento profissional/Aula.html')">
+                    <img src="https://app.escoladepessoas.com.br/wp-content/uploads/2023/02/Autoconhecimento-profissional-impulsione-sua-carreira_com-Karoline-Seixas-1-480x302.webp" alt="">
+                    <h2><span class="course_name">Autoconhecimento</span>Autoconhecimento profissional</h2>
 
-    </div>
+                </div>
+                <div class="card" onclick="aula('Comunicação não violenta/Aula.html')">
+                    <img src="https://app.escoladepessoas.com.br/wp-content/uploads/2023/02/Comunicacao-Nao-violenta-_thumb_-480x302.webp" alt="">
+                    <h2><span class="course_name">Profissionalismo</span>Comunicação não violenta</h2>
+                </div>
+                <div class="card" onclick="aula('Feednack na prática/Aula.html')">
+                    <img src="https://app.escoladepessoas.com.br/wp-content/uploads/2023/02/Feedback-na-pratica-_thumb_-480x302.webp" alt="">
+                    <h2><span class="course_name">Profissionalismo</span>Feedback na prática</h2>
+                </div>
+            </main>
+        </div>
+        
 </body>
 </html>
