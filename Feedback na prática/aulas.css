@@ -95,3 +95,9 @@ body{
     background: rgb(82, 15, 82);
     padding: 20px;
 }
+
+.checkbox{
+    display: flex;
+    gap: 16px;
+    
+}
