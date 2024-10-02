@@ -1,9 +1,9 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-body{
+body {
     display: flex;
     background-color: black;
     color: white;
@@ -11,9 +11,9 @@ body{
 
 }
 
-.sidebar{
+.sidebar {
     display: block;
-    justify-content: center;    
+    justify-content: center;
     width: 250px;
     height: 100vh;
     padding: 20px;
@@ -21,12 +21,12 @@ body{
     border: 1px solid;
 }
 
-.sidebar h1{
+.sidebar h1 {
     margin-bottom: 30px;
-    
+
 }
 
-.sidebar h3{
+.sidebar h3 {
     justify-content: center;
     margin: 8px 0 16px;
     border-bottom: 1px solid white;
@@ -36,48 +36,48 @@ body{
 }
 
 
-.sidebar a{
+.sidebar a {
     color: white;
     text-decoration: none;
 
     display: flex;
     font-weight: 200;
-       
+
 }
 
-.sidebar ol li{
+.sidebar ol li {
     list-style: none;
     padding: 10px;
 }
 
 
-.container{
-   display: inline;
-   flex-grow: 1;
+.container {
+    display: inline;
+    flex-grow: 1;
     margin: auto;
-   
+
 }
 
 
 
-.videowrapper{
+.videowrapper {
     display: flex;
 
     align-items: center;
     justify-content: center;
     max-width: 100%;
-    
+
     margin-bottom: 32px;
 }
 
-.videoProgress{
+.videoProgress {
     display: flex;
     justify-items: center;
     justify-content: center;
     gap: 64px;
 }
 
-.videoProgress span{
+.videoProgress span {
     text-decoration: none;
     color: white;
     background: purple;
@@ -86,20 +86,20 @@ body{
     text-align: center;
 }
 
-.sidebar a:hover{
+.sidebar a:hover {
     font-weight: 600;
     color: rgb(206, 72, 206);
 }
 
-.videoProgress span:hover{
+.videoProgress span:hover {
     background: rgb(82, 15, 82);
     padding: 20px;
 }
 
-.checkbox{
+.checkbox {
     display: flex;
     gap: 16px;
-    
+
 }
 
 .buttonMain {
@@ -107,12 +107,12 @@ body{
     margin-bottom: 30px;
     justify-content: center;
     align-items: center;
-    height: 40px; 
-    width: 100%; 
-    color: #000000; 
-    border: none; 
-    border-radius: 10px; 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
-    font-size: 16px; 
-    cursor: pointer; 
+    height: 40px;
+    width: 100%;
+    color: #000000;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    cursor: pointer;
 }
